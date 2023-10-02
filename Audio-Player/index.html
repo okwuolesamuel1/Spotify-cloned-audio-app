@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="player">
+        <span class="top"><i class="fa-solid fa-chevron-down"></i>PLAYING FROM YOUR LIBRARY<i class="fa-solid fa-ellipsis-vertical"></i></span>
+        <center><img src="./image/ab67616d0000b273caedb769d1b125aa14bdf25d.jpg" alt="" srcset=""></center>
+        <div class="song">
+            <div class="song-info">
+                <marquee behavior="" direction="left" scrollamount="5"><p class="main-info">Last one Left (with Roddy Ricch)</p></marquee>
+                <p class="sub-info">Fredo Bang, Roddy Ricch</p>
+            </div>
+            <span><i class="fa-solid fa-heart heart"></i></span>
+        </div>
+        <input type="range" name="" id="range" value="24" min="0" max="100">
+        <div class="timer"><span id="tim1">1:49</span><span id="tim2">2:52</span></div>
+        <div class="icon-players">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <i class="fa-solid fa-play pause"></i>
+           
+            <!-- <i class="fa-solid fa-pause pause"></i> -->
+            <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-repeat"></i>
+            
+        </div>
+        <audio src="audi/song.mp3" id="my_audio"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
